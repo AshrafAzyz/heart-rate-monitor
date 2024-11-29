@@ -1,0 +1,235 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 11964
+
+Current time: 	11/29/24 5:48:54 PM
+Time zone: 	Gulf Standard Time (Asia/Muscat)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	Admin
+User directory: C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor
+User country: 	MY
+User language: 	en
+User locale: 	en_MY
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 521 mb
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'C:\Users\Admin\Desktop\New folder\Code & Software\Vivado\Heart Rate Monitor\Heart Rate Monitor.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 mb (+47657kb) [00:00:02]
+// [Engine Memory]: 421 mb (+289823kb) [00:00:02]
+// [GUI Memory]: 71 mb (+24748kb) [00:00:03]
+// [Engine Memory]: 426 mb (+5804kb) [00:00:03]
+// [GUI Memory]: 80 mb (+8564kb) [00:00:03]
+// [Engine Memory]: 433 mb (+6418kb) [00:00:03]
+// [Engine Memory]: 447 mb (+15257kb) [00:00:03]
+// [GUI Memory]: 83 mb (+3828kb) [00:00:03]
+// [Engine Memory]: 448 mb (+1458kb) [00:00:03]
+// [Engine Memory]: 450 mb (+1208kb) [00:00:03]
+// [GUI Memory]: 84 mb (+1326kb) [00:00:03]
+// Tcl Message: open_project {C:\Users\Admin\Desktop\New folder\Code & Software\Vivado\Heart Rate Monitor\Heart Rate Monitor.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 520 mb (+74190kb) [00:00:04]
+dismissDialog("Opening project 'C:\\Users\\Admin\\Desktop\\New folder\\Code & Software\\Vivado\\Heart Rate Monitor\\Heart Rate Monitor.xpr'"); // co:P (cg:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 521 mb (+1191kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 25 MB. Current time: 11/29/24 5:48:56 PM
+// [Engine Memory]: 522 mb (+57kb) [00:00:15]
+// [Engine Memory]: 524 mb (+3010kb) [00:00:40]
+// [Engine Memory]: 528 mb (+4227kb) [00:00:55]
+// Elapsed time: 51 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// [Engine Memory]: 533 mb (+4874kb) [00:01:10]
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// [Engine Memory]: 537 mb (+4497kb) [00:02:00]
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+// Elapsed time: 19 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Heart Rate Monitor"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 33 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: close [ open {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/new/Heart Rate Monitor.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/new/Heart Rate Monitor.v}} 
+// E:ae (cg:JFrame): Define Module: addNotify
+selectCheckBox((HResource) null, (String) null, true); // h:JCheckBox (ad:u, E:ae): TRUE
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, "false", 2); // ad:u (m:JViewport, E:ae)
+selectCheckBox((HResource) null, (String) null, false); // h:JCheckBox (ad:u, E:ae): FALSE
+selectCheckBox((HResource) null, (String) null, true); // h:JCheckBox (ad:u, E:ae): TRUE
+selectCheckBox((HResource) null, (String) null, false); // h:JCheckBox (ad:u, E:ae): FALSE
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, "input", 1); // ad:u (m:JViewport, E:ae)
+selectButton(PAResourceAtoD.DefineModulesDialog_ADD_EMPTY_PORT_ROW, (String) null); // a:JButton (JPanel:JComponent, E:ae)
+selectButton(PAResourceAtoD.DefineModulesDialog_REMOVE_SELECTED_PORTS, (String) null); // a:JButton (JPanel:JComponent, E:ae)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, "0", 4); // ad:u (m:JViewport, E:ae)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, "input", 1); // ad:u (m:JViewport, E:ae)
+selectButton(PAResourceAtoD.DefineModulesDialog_REMOVE_SELECTED_PORTS, (String) null); // a:JButton (JPanel:JComponent, E:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, E:ae)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // E:ae (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 542 mb (+4562kb) [00:02:46]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 32 MB. Current time: 11/29/24 5:51:36 PM
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+// [Engine Memory]: 549 mb (+7745kb) [00:02:47]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Heart Rate Monitor.v]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Heart Rate Monitor.v]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Heart Rate Monitor.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Heart Rate Monitor.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 131, 55); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 9, 13); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 48, 24); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files]", 8, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (I:aC, cg:JFrame)
+// [Engine Memory]: 574 mb (+26492kb) [00:05:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 574 MB. GUI used memory: 33 MB. Current time: 11/29/24 5:54:12 PM
+// Elapsed time: 452 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Heart Rate Monitor.v]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files]", 8, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // h:k (CommandBar:DockableBar, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Heart Rate Monitor.v", 73, 390); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Heart Rate Monitor.v", 309, 320); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 72, 365); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 213, 343); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 197, 327); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 194, 335); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 115, 326); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 120, 327); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 161, 364); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Heart Rate Monitor.v", 189, 327); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Heart Rate Monitor.v", 189, 327); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 189, 327); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 125, 332); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 94, 335); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Heart Rate Monitor.v", 157, 283); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HeartRateMonitor (Heart Rate Monitor.v)]", 1, false); // u:k (w:JPanel, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 27, 72); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Heart Rate Monitor.v", 27, 72, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click

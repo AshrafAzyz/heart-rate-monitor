@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jul 25 16:57:58 2022
+# Process ID: 128976
+# Current directory: C:/Users/bokiss/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent116588
+# Log file: C:/Users/bokiss/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/bokiss/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: sim-ro, OS: Windows, CPU Frequency: 2993 MHz, CPU Physical cores: 16, Host memory: 343200 MB
+#-----------------------------------------------------------
+start_gui
+source {D:/WorkBORI/Nexys-A7/hw/scripts/checkout.tcl}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 24
+wait_on_run impl_1
+archive_project D:/WorkBORI/Nexys-A7/hw/Nexys-A7-100T-XADC-hw.xpr.zip -temp_dir C:/Users/bokiss/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-128976-sim-ro -force -include_local_ip_cache -include_config_settings
