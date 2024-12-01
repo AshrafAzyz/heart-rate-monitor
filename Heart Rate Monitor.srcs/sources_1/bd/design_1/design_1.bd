@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:tool_version="2014.2" bd:top="design_1" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:busInterfaces>
+      <spirit:busInterface>
+        <spirit:name>Vaux2</spirit:name>
+        <spirit:slave/>
+        <spirit:busType spirit:library="interface" spirit:name="diff_analog_io" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="diff_analog_io_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>Vaux3</spirit:name>
+        <spirit:slave/>
+        <spirit:busType spirit:library="interface" spirit:name="diff_analog_io" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="diff_analog_io_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>Vaux10</spirit:name>
+        <spirit:slave/>
+        <spirit:busType spirit:library="interface" spirit:name="diff_analog_io" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="diff_analog_io_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>Vaux11</spirit:name>
+        <spirit:slave/>
+        <spirit:busType spirit:library="interface" spirit:name="diff_analog_io" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="diff_analog_io_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+      </spirit:busInterface>
+    </spirit:busInterfaces>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="design_1_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports/>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>xadc_wiz_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xadc_wiz" spirit:vendor="xilinx.com" spirit:version="3.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_xadc_wiz_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="INTERFACE_SELECTION">None</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="XADC_STARUP_SELECTION">channel_sequencer</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="OT_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="USER_TEMP_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="VCCINT_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="VCCAUX_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_TEMPERATURE">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VCCINT">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VP_VN">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP0_VAUXN0">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP2_VAUXN2">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP3_VAUXN3">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP4_VAUXN4">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP5_VAUXN5">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP6_VAUXN6">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP10_VAUXN10">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP11_VAUXN11">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CHANNEL_ENABLE_VAUXP15_VAUXN15">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AVERAGE_ENABLE_VP_VN">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AVERAGE_ENABLE_VAUXP0_VAUXN0">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AVERAGE_ENABLE_VAUXP4_VAUXN4">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AVERAGE_ENABLE_VAUXP5_VAUXN5">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AVERAGE_ENABLE_VAUXP6_VAUXN6">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AVERAGE_ENABLE_VAUXP15_VAUXN15">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AVERAGE_ENABLE_TEMPERATURE">false</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:interconnections/>
+    <spirit:adHocConnections/>
+    <spirit:hierConnections>
+      <spirit:hierConnection spirit:interfaceRef="Vaux2/Vaux2_1">
+        <spirit:activeInterface spirit:busRef="Vaux2" spirit:componentRef="xadc_wiz_0"/>
+      </spirit:hierConnection>
+      <spirit:hierConnection spirit:interfaceRef="Vaux3/Vaux3_1">
+        <spirit:activeInterface spirit:busRef="Vaux3" spirit:componentRef="xadc_wiz_0"/>
+      </spirit:hierConnection>
+      <spirit:hierConnection spirit:interfaceRef="Vaux10/Vaux10_1">
+        <spirit:activeInterface spirit:busRef="Vaux10" spirit:componentRef="xadc_wiz_0"/>
+      </spirit:hierConnection>
+      <spirit:hierConnection spirit:interfaceRef="Vaux11/Vaux11_1">
+        <spirit:activeInterface spirit:busRef="Vaux11" spirit:componentRef="xadc_wiz_0"/>
+      </spirit:hierConnection>
+    </spirit:hierConnections>
+  </spirit:design>
+
+</bd:repository>

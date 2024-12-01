@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Dec 01 13:22:20 2024
+# Process ID: 7592
+# Log file: C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/vivado.log
+# Journal file: C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Admin\Desktop\New folder\Code & Software\Vivado\Heart Rate Monitor\Heart Rate Monitor.xpr}
+update_compile_order -fileset sources_1
+
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property -dict [list CONFIG.OT_ALARM {false} CONFIG.USER_TEMP_ALARM {false} CONFIG.VCCINT_ALARM {false} CONFIG.VCCAUX_ALARM {false} CONFIG.CHANNEL_ENABLE_TEMPERATURE {true} CONFIG.CHANNEL_ENABLE_VCCINT {true} CONFIG.CHANNEL_ENABLE_VP_VN {false} CONFIG.CHANNEL_ENABLE_VAUXP0_VAUXN0 {false} CONFIG.CHANNEL_ENABLE_VAUXP2_VAUXN2 {true} CONFIG.CHANNEL_ENABLE_VAUXP3_VAUXN3 {true} CONFIG.CHANNEL_ENABLE_VAUXP4_VAUXN4 {false} CONFIG.CHANNEL_ENABLE_VAUXP5_VAUXN5 {false} CONFIG.CHANNEL_ENABLE_VAUXP6_VAUXN6 {false} CONFIG.CHANNEL_ENABLE_VAUXP10_VAUXN10 {true} CONFIG.CHANNEL_ENABLE_VAUXP11_VAUXN11 {true} CONFIG.CHANNEL_ENABLE_VAUXP15_VAUXN15 {false} CONFIG.AVERAGE_ENABLE_VP_VN {false} CONFIG.AVERAGE_ENABLE_VAUXP4_VAUXN4 {false} CONFIG.AVERAGE_ENABLE_VAUXP5_VAUXN5 {false} CONFIG.AVERAGE_ENABLE_VAUXP6_VAUXN6 {false} CONFIG.AVERAGE_ENABLE_VAUXP15_VAUXN15 {false} CONFIG.AVERAGE_ENABLE_TEMPERATURE {false}] [get_bd_cells xadc_wiz_0]
+endgroup
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:diff_analog_io_rtl:1.0 Vaux2
+connect_bd_intf_net [get_bd_intf_pins xadc_wiz_0/Vaux2] [get_bd_intf_ports Vaux2]
+endgroup
+startgroup
+create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:diff_analog_io_rtl:1.0 Vaux3
+connect_bd_intf_net [get_bd_intf_pins xadc_wiz_0/Vaux3] [get_bd_intf_ports Vaux3]
+endgroup
+startgroup
+create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:diff_analog_io_rtl:1.0 Vaux10
+connect_bd_intf_net [get_bd_intf_pins xadc_wiz_0/Vaux10] [get_bd_intf_ports Vaux10]
+endgroup
+startgroup
+create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:diff_analog_io_rtl:1.0 Vaux11
+connect_bd_intf_net [get_bd_intf_pins xadc_wiz_0/Vaux11] [get_bd_intf_ports Vaux11]
+endgroup
+close [ open {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/constrs_1/new/constrain.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/constrs_1/new/constrain.xdc}}
+save_bd_design
+launch_runs synth_1
+wait_on_run synth_1
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+validate_bd_design

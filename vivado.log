@@ -2,8 +2,8 @@
 # Vivado v2014.2 (64-bit)
 # SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
 # IP Build 924643 on Fri May 30 09:20:16 MDT 2014
-# Start of session at: Fri Nov 29 17:48:48 2024
-# Process ID: 11964
+# Start of session at: Sun Dec 01 15:26:15 2024
+# Process ID: 18316
 # Log file: C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/vivado.log
 # Journal file: C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor\vivado.jou
 #-----------------------------------------------------------
@@ -11,9 +11,22 @@ start_gui
 open_project {C:\Users\Admin\Desktop\New folder\Code & Software\Vivado\Heart Rate Monitor\Heart Rate Monitor.xpr}
 Scanning sources...
 Finished scanning sources
-close [ open {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/new/Heart Rate Monitor.v} w ]
-add_files {{C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/new/Heart Rate Monitor.v}}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/new/Heart Rate Monitor.v" into library work [C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/new/Heart Rate Monitor.v:1]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/new/Heart Rate Monitor.v]
+[Sun Dec 01 15:26:57 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.runs/synth_1/runme.log
+open_bd_design {C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:xadc_wiz:3.0 - xadc_wiz_0
+Successfully read diagram <design_1> from BD file <C:/Users/Admin/Desktop/New folder/Code & Software/Vivado/Heart Rate Monitor/Heart Rate Monitor.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1075.203 ; gain = 164.770
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 01 15:37:45 2024...
